@@ -1,0 +1,12 @@
+{
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules/"],
+    "compilerOptions": {
+        "lib": ["ESNext", "DOM"],
+        "module": "Node16",
+        "moduleResolution": "Node16",
+        "strict": true,
+        "target": "ESNext",
+        "types": ["node"],
+    }
+}
